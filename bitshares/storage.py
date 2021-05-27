@@ -10,7 +10,7 @@ from graphenestorage import (
 )
 
 
-url = "wss://node.bitshares.eu"
+url = "wss://api-nbs-northchina.cnvote.vip:80"
 SqliteConfigurationStore.setdefault("node", url)
 SqliteConfigurationStore.setdefault("order-expiration", 356 * 24 * 60 * 60)
 
